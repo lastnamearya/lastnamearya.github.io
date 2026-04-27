@@ -1,0 +1,27 @@
+2026-04-27 22:10:07.778 [info] Started local extension host with pid 99473.
+2026-04-27 22:10:08.275 [error] [Extension Host] (node:99473) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `Code Helper (Plugin) --trace-deprecation ...` to show where the warning was created)
+2026-04-27 22:10:09.873 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-04-27 22:10:10.516 [info] [perf] Render performance baseline is 9ms
+2026-04-27 22:10:11.729 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-04-27 22:10:49.138 [error] [Extension Host] (node:99473) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+2026-04-27 22:10:57.981 [error] An unknown error occurred. Please consult the log for more details.
+2026-04-27 22:11:01.223 [error] Error: Unknown extension GitHub.copilot-chat
+    at Amt._activateById (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:4937:8385)
+    at async eWe.activateDefaultAgent (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3002:9463)
+    at async Xb.whenAgentActivated (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3625:30281)
+    at async Promise.allSettled (index 0)
+    at async Xb.doForwardRequestToChatWhenReady (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3625:27475)
+    at async Xb.doForwardRequestToChat (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3625:26629)
+    at async Xb.forwardRequestToChat (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3625:26167)
+    at async Xb.doInvokeWithSetup (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3625:32239)
+    at async pTe.invokeAgent (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:943:28809)
+    at async H (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3002:24558)
+2026-04-27 22:11:01.744 [error] [Extension Host] (node:99473) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-04-27 22:11:06.139 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.117/tools/latest.txt
+2026-04-27 22:11:06.139 [error] [Extension Host] Response status: 404, status text: 
+2026-04-27 22:11:06.413 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.117/tools/core.json
+2026-04-27 22:11:06.414 [error] [Extension Host] Response status: 404, status text: 
+2026-04-27 22:15:24.271 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-04-27 22:15:24.272 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'
+2026-04-27 22:15:24.272 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'

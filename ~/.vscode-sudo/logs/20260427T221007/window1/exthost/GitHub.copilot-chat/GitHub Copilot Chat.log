@@ -1,0 +1,126 @@
+2026-04-27 22:11:01.851 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-04-27 22:11:01.851 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-04-27 22:11:01.851 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-04-27 22:11:01.851 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-04-27 22:11:01.851 [info] ConversationFeature: Waiting for copilot token to activate conversation feature
+2026-04-27 22:11:01.851 [info] Logged in as lastnamearya
+2026-04-27 22:11:01.851 [info] Using the Electron fetcher.
+2026-04-27 22:11:01.958 [info] [CopilotCLI] MCP server started. Lock file: /Users/lastnamearya/.copilot/ide/c025af7c-9401-4bcc-a6b9-96dd4c84d9b2.lock
+2026-04-27 22:11:01.958 [info] [CopilotCLI] Server URI: unix:/var/folders/6m/cjpb1rfj5mxflp4fmd7xy77m0000gn/T/mcp-84pgQH/mcp.sock#%2Fmcp
+2026-04-27 22:11:02.104 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-04-27 22:11:02.114 [info] [CopilotCLIChatSessionContentProvider] listSessions took 285.31445800000074ms
+2026-04-27 22:11:02.643 [info] Got Copilot token for lastnamearya
+2026-04-27 22:11:02.643 [info] Copilot Chat: 0.45.1, VS Code: 1.117.0
+2026-04-27 22:11:02.649 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-04-27 22:11:02.653 [info] activationBlocker from 'languageModelAccess' took for 849ms
+2026-04-27 22:11:02.675 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-04-27 22:11:02.675 [info] copilot token sku: free_limited_copilot
+2026-04-27 22:11:02.675 [info] ConversationFeature: Activating contributions
+2026-04-27 22:11:02.678 [info] Registering default platform agent...
+2026-04-27 22:11:02.678 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-04-27 22:11:02.679 [info] [code-referencing] Public code references are enabled.
+2026-04-27 22:11:02.679 [info] activationBlocker from 'conversationFeature' took for 878ms
+2026-04-27 22:11:02.680 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-04-27 22:11:02.681 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-04-27 22:11:02.682 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2026-04-27 22:11:02.682 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2026-04-27 22:11:02.682 [info] Successfully registered GitHub PR title and description provider.
+2026-04-27 22:11:02.694 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.2311660000050324ms
+2026-04-27 22:11:02.694 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.22666699999535922ms
+2026-04-27 22:11:02.724 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-04-27 22:11:03.132 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.8693330000023707ms
+2026-04-27 22:11:03.763 [info] Fetched model metadata in 1953ms 77ed5929-3362-4337-a435-4e51de7c5ea9
+2026-04-27 22:11:04.055 [info] Latest entry: ccreq:latest.copilotmd
+2026-04-27 22:11:04.055 [info] ccreq:91ee68ef.copilotmd | markdown
+2026-04-27 22:11:05.964 [info] message 0 returned. finish reason: [stop]
+2026-04-27 22:11:05.966 [info] request done: requestId: [8c842698-dba0-47bc-a47b-95fdafeaa555] model deployment ID: []
+2026-04-27 22:11:05.967 [info] ccreq:28476dc8.copilotmd | success | gpt-4o-mini-2024-07-18 | 1444ms | [title]
+2026-04-27 22:11:07.400 [info] message 0 returned. finish reason: [stop]
+2026-04-27 22:11:07.402 [info] request done: requestId: [257a03d3-ce00-44e3-b828-4da1362691c9] model deployment ID: []
+2026-04-27 22:11:07.403 [info] ccreq:bb158559.copilotmd | success | gpt-4o-mini-2024-07-18 | 2296ms | [progressMessages]
+2026-04-27 22:11:07.532 [info] message 0 returned. finish reason: [stop]
+2026-04-27 22:11:07.534 [info] request done: requestId: [a33fa3e3-f4fb-43e5-b24d-9cd92279a0af] model deployment ID: []
+2026-04-27 22:11:07.535 [info] ccreq:db379fca.copilotmd | success | gpt-4o-mini-2024-07-18 | 2431ms | [progressMessages]
+2026-04-27 22:11:13.173 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.5657499999942956ms
+2026-04-27 22:11:15.320 [info] message 0 returned. finish reason: [stop]
+2026-04-27 22:11:15.322 [info] request done: requestId: [8f7b07c7-c0c7-41f9-a448-c11530f5d949] model deployment ID: []
+2026-04-27 22:11:15.322 [info] ccreq:c69e71cd.copilotmd | success | gpt-4o-mini-2024-07-18 | 8381ms | [summarizeVirtualTools]
+2026-04-27 22:11:15.360 [warning] [SessionTranscript] No workspace storage available, transcript will not be written
+2026-04-27 22:11:18.144 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-27 22:11:18.149 [info] ccreq:95caf47e.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2760ms | [panel/editAgent]
+2026-04-27 22:11:18.165 [warning] [SessionTranscript] No workspace storage available, transcript will not be written
+2026-04-27 22:11:22.769 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-27 22:11:22.776 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-27 22:11:22.780 [info] ccreq:a111d0d0.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4570ms | [panel/editAgent]
+2026-04-27 22:11:22.795 [warning] [SessionTranscript] No workspace storage available, transcript will not be written
+2026-04-27 22:11:24.295 [info] message 0 returned. finish reason: [stop]
+2026-04-27 22:11:24.297 [info] request done: requestId: [26b2491b-4492-4082-8a76-ceee628fda68] model deployment ID: []
+2026-04-27 22:11:24.298 [info] ccreq:20b6e3ae.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1498ms | [copilotLanguageModelWrapper]
+2026-04-27 22:11:25.818 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-27 22:11:25.821 [info] ccreq:24273f9a.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2998ms | [panel/editAgent]
+2026-04-27 22:11:25.834 [warning] [SessionTranscript] No workspace storage available, transcript will not be written
+2026-04-27 22:11:28.225 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-27 22:11:28.227 [info] ccreq:544a65ac.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2360ms | [panel/editAgent]
+2026-04-27 22:11:28.240 [warning] [SessionTranscript] No workspace storage available, transcript will not be written
+2026-04-27 22:11:33.650 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-27 22:11:33.763 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-27 22:11:33.764 [info] ccreq:28c635e5.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 5483ms | [panel/editAgent]
+2026-04-27 22:11:33.775 [warning] [SessionTranscript] No workspace storage available, transcript will not be written
+2026-04-27 22:11:33.776 [warning] Error compiling input schema for tool run_in_terminal: Error: strict mode: unknown keyword: "enumDescriptions"
+2026-04-27 22:11:35.168 [info] message 0 returned. finish reason: [stop]
+2026-04-27 22:11:35.170 [info] request done: requestId: [9209ebc2-fd97-4be1-a791-13215dba82fd] model deployment ID: []
+2026-04-27 22:11:35.171 [info] ccreq:0c97de9f.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1502ms | [copilotLanguageModelWrapper]
+2026-04-27 22:11:40.279 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-27 22:11:40.306 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-27 22:11:40.308 [info] ccreq:53b1f7d6.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 3365ms | [panel/editAgent]
+2026-04-27 22:11:40.330 [warning] [SessionTranscript] No workspace storage available, transcript will not be written
+2026-04-27 22:11:41.646 [info] message 0 returned. finish reason: [stop]
+2026-04-27 22:11:41.648 [info] request done: requestId: [a03fa53e-dc34-4733-b760-eae1d3cd1e22] model deployment ID: []
+2026-04-27 22:11:41.649 [info] ccreq:7abab533.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1353ms | [copilotLanguageModelWrapper]
+2026-04-27 22:11:49.243 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-27 22:11:49.247 [info] ccreq:4b69798b.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4934ms | [panel/editAgent]
+2026-04-27 22:11:49.259 [warning] [SessionTranscript] No workspace storage available, transcript will not be written
+2026-04-27 22:12:10.852 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.900500000003376ms
+2026-04-27 22:12:43.682 [warning] [SessionTranscript] No workspace storage available, transcript will not be written
+2026-04-27 22:12:52.063 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-27 22:12:52.065 [info] ccreq:aa35f551.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 4324ms | [panel/editAgent]
+2026-04-27 22:12:52.076 [warning] [SessionTranscript] No workspace storage available, transcript will not be written
+2026-04-27 22:13:12.287 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-27 22:13:12.290 [info] ccreq:76566fbf.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 1863ms | [panel/editAgent]
+2026-04-27 22:13:12.331 [warning] [SessionTranscript] No workspace storage available, transcript will not be written
+2026-04-27 22:13:13.819 [info] message 0 returned. finish reason: [stop]
+2026-04-27 22:13:13.821 [info] request done: requestId: [e4d0334f-fb75-4f97-997a-09b827b637da] model deployment ID: []
+2026-04-27 22:13:13.822 [info] ccreq:9dcac4e1.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1473ms | [copilotLanguageModelWrapper]
+2026-04-27 22:13:15.255 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-27 22:13:15.258 [info] ccreq:89673c3f.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2387ms | [panel/editAgent]
+2026-04-27 22:13:15.272 [warning] [SessionTranscript] No workspace storage available, transcript will not be written
+2026-04-27 22:13:16.717 [info] message 0 returned. finish reason: [stop]
+2026-04-27 22:13:16.719 [info] request done: requestId: [8c9b57e0-d534-4118-96aa-9b2dd9c2022d] model deployment ID: []
+2026-04-27 22:13:16.720 [info] ccreq:252752f6.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1429ms | [copilotLanguageModelWrapper]
+2026-04-27 22:13:27.084 [warning] [SessionTranscript] No workspace storage available, transcript will not be written
+2026-04-27 22:13:29.695 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-27 22:13:29.699 [info] ccreq:00ef237b.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2198ms | [panel/editAgent]
+2026-04-27 22:13:29.715 [warning] [SessionTranscript] No workspace storage available, transcript will not be written
+2026-04-27 22:13:30.895 [info] message 0 returned. finish reason: [stop]
+2026-04-27 22:13:30.896 [info] request done: requestId: [f7c8e71b-81e2-41ad-a3ce-b8efe82486a9] model deployment ID: []
+2026-04-27 22:13:30.897 [info] ccreq:6583765f.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1170ms | [copilotLanguageModelWrapper]
+2026-04-27 22:13:32.784 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-27 22:13:32.789 [info] ccreq:e7317e7d.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2945ms | [panel/editAgent]
+2026-04-27 22:13:32.807 [warning] [SessionTranscript] No workspace storage available, transcript will not be written
+2026-04-27 22:13:34.050 [info] message 0 returned. finish reason: [stop]
+2026-04-27 22:13:34.052 [info] request done: requestId: [451e87b0-2f65-4991-88a1-88c6c565704c] model deployment ID: []
+2026-04-27 22:13:34.053 [info] ccreq:ebaa50d8.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1222ms | [copilotLanguageModelWrapper]
+2026-04-27 22:13:52.773 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-27 22:13:52.777 [info] ccreq:bc5f5d6b.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 1780ms | [panel/editAgent]
+2026-04-27 22:13:52.792 [warning] [SessionTranscript] No workspace storage available, transcript will not be written
+2026-04-27 22:13:54.774 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-27 22:13:54.776 [info] ccreq:d47201c8.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 1864ms | [panel/editAgent]
+2026-04-27 22:13:54.789 [warning] [SessionTranscript] No workspace storage available, transcript will not be written
+2026-04-27 22:13:56.944 [warning] [messagesAPI] Unknown content_block type 'text' at index 1 for model claude-haiku-4-5-20251001
+2026-04-27 22:13:56.944 [info] [messagesAPI] message 0 returned. finish reason: [stop]
+2026-04-27 22:13:56.948 [info] ccreq:47ae6e25.copilotmd | success | claude-haiku-4.5 -> claude-haiku-4-5-20251001 | 2122ms | [panel/editAgent]
+2026-04-27 22:13:56.954 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-04-27 22:13:58.422 [info] message 0 returned. finish reason: [stop]
+2026-04-27 22:13:58.424 [info] request done: requestId: [cca51d18-fc46-4250-8c39-d8214a00b37d] model deployment ID: []
+2026-04-27 22:13:58.425 [info] ccreq:467d2bae.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 1456ms | [copilotLanguageModelWrapper]
+2026-04-27 22:15:20.738 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.2879160000011325ms

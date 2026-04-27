@@ -1,0 +1,5 @@
+2026-04-27 22:10:07.061 [info] CrossAppIPCService: connecting to peer
+2026-04-27 22:10:07.181 [info] update#setState idle
+2026-04-27 22:10:37.212 [info] update#setState checking for updates
+2026-04-27 22:10:37.625 [info] update#setState idle
+2026-04-27 22:15:24.291 [info] Extension host with pid 99473 exited with code: 0, signal: unknown.

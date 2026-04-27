@@ -1,0 +1,8 @@
+2026-04-27 22:11:04.526 [info] Starting server GitKraken
+2026-04-27 22:11:04.526 [info] Connection state: Starting
+2026-04-27 22:11:04.526 [info] Starting server from LocalProcess extension host
+2026-04-27 22:11:04.527 [info] Connection state: Starting
+2026-04-27 22:11:04.527 [info] Connection state: Running
+2026-04-27 22:11:04.745 [info] Discovered 25 tools
+2026-04-27 22:15:24.266 [warning] Extension host shut down, server will stop.
+2026-04-27 22:15:24.266 [info] Connection state: Stopped
